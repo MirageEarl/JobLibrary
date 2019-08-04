@@ -1,0 +1,5 @@
+job:
+  employee:
+    info: EmployeesInformation.txt
+  email:
+    template: src/main/resources/BirthdayTemplate.properties
