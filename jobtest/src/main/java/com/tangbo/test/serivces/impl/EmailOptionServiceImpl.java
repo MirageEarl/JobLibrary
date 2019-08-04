@@ -19,10 +19,10 @@ public class EmailOptionServiceImpl implements EmailOptionService {
     public static final String MOTH_DAY = "MMdd";
     public static final String YEAR_MOTH_DAY = "yyyy/MM/dd";
 
-    @Value("job.employee.info")
+    @Value("${job.employee.info}")
     private String employeeInfo;
 
-    @Value("job.email.template")
+    @Value("${job.email.template}")
     private String emailTemplate;
 
     @Override
